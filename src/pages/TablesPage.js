@@ -28,7 +28,7 @@ const rows = [
   { id: 3, lastName: 'Lannister', firstName: 'Jaime', email: 'jaime.lannister@example.com', age: 45, status: 'active' },
   { id: 4, lastName: 'Stark', firstName: 'Arya', email: 'arya.stark@example.com', age: 16, status: 'active' },
   { id: 5, lastName: 'Targaryen', firstName: 'Daenerys', email: 'daenerys.targaryen@example.com', age: null, status: 'inactive' },
-  { id: 6, lastName: 'Melisandre', firstName: null, email: 'melisandre@example.com', age: 150, status: 'active' },
+  { id: 6, lastName: 'Melisandre', firstName: 'Tom', email: 'melisandre@example.com', age: 150, status: 'active' },
   { id: 7, lastName: 'Clifford', firstName: 'Ferrara', email: 'ferrara.clifford@example.com', age: 44, status: 'inactive' },
   { id: 8, lastName: 'Frances', firstName: 'Rossini', email: 'rossini.frances@example.com', age: 36, status: 'active' },
   { id: 9, lastName: 'Roxie', firstName: 'Harvey', email: 'harvey.roxie@example.com', age: 65, status: 'inactive' },

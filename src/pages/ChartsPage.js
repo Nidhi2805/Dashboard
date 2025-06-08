@@ -2,7 +2,6 @@ import React from 'react';
 import { useTheme } from '../contexts/ThemeContext';
 import LineChart from '../components/charts/LineChart';
 import BarChart from '../components/charts/BarChart';
-import PieChart from '../components/charts/PieChart';
 
 const ChartsPage = () => {
   const { theme, themeColors } = useTheme();
@@ -43,18 +42,6 @@ const ChartsPage = () => {
             </h3>
             <div className="h-80">
               <BarChart />
-            </div>
-          </div>
-
-          <div className="p-4 rounded-lg lg:col-span-2">
-            <h3 
-              className="text-lg font-medium mb-3"
-              style={{ color: currentColors.text }}
-            >
-              Market Share
-            </h3>
-            <div className="h-96">
-              <PieChart />
             </div>
           </div>
         </div>

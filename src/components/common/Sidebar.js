@@ -40,7 +40,7 @@ const Sidebar = () => {
           Admin Dashboard
         </h1>
       </div>
-      <nav className="mt-6">
+      <nav className="mt-6 space-y-2">
         {navItems.map((item) => (
           <NavLink
             key={item.path}
